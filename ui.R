@@ -11,12 +11,12 @@ library(colourpicker)
 
 shinyUI(fluidPage(
   theme = shinytheme("cerulean"),
-  titlePanel("1288XX: 一二布布的科研工具箱"),
+  titlePanel("1288xx: 一二布布的科研工具箱"),
   navbarPage(
     "🐻🐻出发~",
     # home page
     #source("main/ui/ui.home.R", local = TRUE, encoding = "UTF-8")$value,
-    # go page
+    # qPCR page
     source("main/ui/ui.qpcr.R", local = TRUE, encoding = "UTF-8")$value
   )
 ))
